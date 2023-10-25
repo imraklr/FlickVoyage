@@ -7,8 +7,8 @@ CREATE TABLE movie_keyword (
     `keyword_id` BIGINT,
 
     PRIMARY KEY (`movie_id`, `keyword_id`),
-    FOREIGN KEY (`movie_id`) REFERENCES `movies` (`movie_id`),
-    FOREIGN KEY (`keyword_id`) REFERENCES `keywords` (`keyword_id`)
+    FOREIGN KEY (`movie_id`) REFERENCES `movie` (`movie_id`),
+    FOREIGN KEY (`keyword_id`) REFERENCES `keyword` (`keyword_id`)
 );
 
 SET FOREIGN_KEY_CHECKS = 1;

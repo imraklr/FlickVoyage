@@ -5,13 +5,13 @@ USE movie_database;
 
 SET FOREIGN_KEY_CHECKS = 0;
 
-DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS movie;
 
 
 --
--- Table structure for table `movies`
+-- Table structure for table `movie`
 --
-CREATE TABLE movies (
+CREATE TABLE movie (
     movie_id BIGINT auto_increment PRIMARY KEY, 
 	adult BOOLEAN, 
 	language VARCHAR(4), 

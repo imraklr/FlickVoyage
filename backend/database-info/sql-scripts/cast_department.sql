@@ -7,8 +7,8 @@ CREATE TABLE cast_department (
     `department_id` INT,
 
     PRIMARY KEY (`cast_id`, `department_id`),
-    FOREIGN KEY (`cast_id`) REFERENCES casts(`cast_id`),
-    FOREIGN KEY (`department_id`) REFERENCES departments(`department_id`)
+    FOREIGN KEY (`cast_id`) REFERENCES `cast`(`cast_id`),
+    FOREIGN KEY (`department_id`) REFERENCES department(`department_id`)
 );
 
 SET FOREIGN_KEY_CHECKS = 1;
