@@ -30,6 +30,6 @@ Flick Voyage is your passport to a world of cinematic exploration. 🎥✨ Disco
 
 Albeit the repository is public OR private, only the assigned contributors are allowed to contribute. For assigned contributors:
 
-- Report issues or suggest enhancements in the [Issue Tracker](https://github.com/imraklr/Flick Voyage/issues).
+- Report issues or suggest enhancements in the [Issue Tracker](https://github.com/imraklr/FlickVoyage/issues).
 
 - Feel free to fork the repository and submit pull requests.
