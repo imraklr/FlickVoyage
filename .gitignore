@@ -1,0 +1,5 @@
+# Ignore the .vscode directory
+.vscode/
+
+# Ignore the datasets directory (datasets are not part of code)
+notebooks/data-preparation/datasets/
