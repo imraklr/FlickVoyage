@@ -21,3 +21,7 @@ If Maven is not installed, you have two options:
         ```mvnw.cmd clean spring-boot:run``` (On Command Prompt)
 
 Ensure that you run these commands from the project's root folder, where the Project Object Model (POM) file is located.
+
+## Notes
+
+This service will be registered in the [Service Registry](https://github.com/imraklr/FlickVoyage/tree/dev-rakesh/backend/services/service-registry). So be sure to run the Service Registry first then run this service.
