@@ -1,10 +1,10 @@
-# FlickVoyage
+# Flick Voyage
 
-![FlickVoyage Logo](logo.png)
+<img src = "https://github.com/imraklr/FlickVoyage/blob/main/logo.jpeg" width = 300px height = 300px />
 
 ## About
 
-FlickVoyage is your passport to a world of cinematic exploration. 🎥✨ Discover movies tailored to your unique tastes and embark on a cinematic journey like never before. Whether you're looking for your next movie night pick or seeking hidden cinematic gems, FlickVoyage has you covered.
+Flick Voyage is your passport to a world of cinematic exploration. 🎥✨ Discover movies tailored to your unique tastes and embark on a cinematic journey like never before. Whether you're looking for your next movie night pick or seeking hidden cinematic gems, Flick Voyage has you covered.
 
 ## Features
 
@@ -20,7 +20,7 @@ FlickVoyage is your passport to a world of cinematic exploration. 🎥✨ Discov
 
 ## Getting Started
 
-1. Sign Up for a FlickVoyage account to unlock personalized recommendations.
+1. Sign Up for a Flick Voyage account to unlock personalized recommendations.
 
 2. Explore our curated movie lists or search for specific titles.
 
@@ -30,6 +30,6 @@ FlickVoyage is your passport to a world of cinematic exploration. 🎥✨ Discov
 
 Albeit the repository is public OR private, only the assigned contributors are allowed to contribute. For assigned contributors:
 
-- Report issues or suggest enhancements in the [Issue Tracker](https://github.com/imraklr/flickvoyage/issues).
+- Report issues or suggest enhancements in the [Issue Tracker](https://github.com/imraklr/FlickVoyage/issues).
 
 - Feel free to fork the repository and submit pull requests.
