@@ -1,0 +1,9 @@
+/* My own custom shapes */
+
+md-list {
+    max-width: 300px;
+}
+
+.progress-indicators {
+    --md-linear-progress-track-corner-radius: 0;
+}

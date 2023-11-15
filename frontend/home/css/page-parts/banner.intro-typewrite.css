@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+.menu-intro-container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% auto;
+}
+
+.divider1 {
+  width: fit-content;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 100px 0px;
+  column-gap: 8px;
+}
+
+.divider2 {
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* managing top bar */
+.topbar {
+  width: 100%;
+  justify-content: flex-end;
+  display: none;
+}
+
+
+.search_button {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+
+.intro{
+    text-align: center;
+}
+
+.brand-icon {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  background: radial-gradient(circle at center, var(--md-ref-palette-primary80), var(--md-ref-palette-secondary80), var(--md-ref-palette-tertiary80), var(--md-ref-palette-neutral80));
+  border: 2px solid transparent;
+}
+
+.brand-name {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Sofia", sans-serif;
+  -webkit-text-fill-color: pink;
+}
+
+
+.intro-typewrite {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Sofia", sans-serif;
+  background: -webkit-linear-gradient(var(--md-ref-palette-primary40), var(--md-ref-palette-secondary40), var(--md-ref-palette-tertiary40), var(--md-ref-palette-neutral40));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 auto auto auto;
+  width: auto;
+}
+
+.emoji-wrap {
+  display: inline; /* Display the emoji inline */
+  font-size: 32px;
+}

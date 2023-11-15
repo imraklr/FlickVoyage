@@ -1,0 +1,40 @@
+#nav-next-prev {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#div-page-number-text-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#div-page-size-text-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.divider {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#go_apply_paging {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
