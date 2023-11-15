@@ -14,7 +14,7 @@ Execute the following command for bundling:
 
 ```npx rollup -p @rollup/plugin-node-resolve index.js -o js/bundles/bundle.js```
 
-Post-bundling, you can test the application by double-clicking the `index.html` file in the root folder.
+Post-bundling, remove all the module exports statements as it will block the linear execution flow of the javascript file `bundle.js`. Then you can test the application by double-clicking the `index.html` file in the root folder.
 
 Ensure execution of the above commands from the root folder where the `index.js` file resides.
 
