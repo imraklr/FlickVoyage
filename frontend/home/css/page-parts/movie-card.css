@@ -1,0 +1,54 @@
+.movie_card {
+  display: inline-flex;
+  width: 100%;
+  height: 500px;
+  
+  padding: 1%;
+
+  margin-bottom: 12px;
+}
+
+.card-container {
+  display: inline-flex;
+  width: 100%;
+  height: 500px;
+}
+
+.list-encapsulator {
+  width: 100%;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.card_list {
+  max-width: 100%;
+  height: auto;
+}
+
+.poster-card {
+  width: 100%;
+  height: 500px;
+
+  /* Shape */
+  border: 2px;
+  border-radius: 16px 0 0 16px;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.list-encapsulator::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.list-encapsulator {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: auto;
+}
+
+.poster-container {
+  /* Shape */
+  border: 2px;
+  border-radius: 16px 0 0 16px; /* Apply curved borders to the left top and left bottom corners */
+  height: 100%; /* Set a fixed height equal to the container height */
+}

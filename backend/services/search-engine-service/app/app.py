@@ -82,6 +82,9 @@ def generate_all_dataframes():
 
     # merge genre_df in the movie_df
     movie_df = pd.merge(genre_df, movie_df, on='movie_id')
+    
+    movie_df['adult'] = movie_df['adult'].replace({0: False, 1: True})
+
     movie_df['genre'] = movie_df['genre'].str.split(', ')
 
     global keyword_df
@@ -155,6 +158,22 @@ def prettifyJSON(res):
     # res is a list of individual columns listed at one place in single list.
     # Convert the DataFrame to a list of dictionaries with 'records' orient
     json_result = res.to_dict(orient='records')
+
+    # Customize the column names in the JSON output
+    custom_column_names = {
+        'movie_id': 'movieId',
+        'poster_path': 'posterLink',
+        'popularity': 'popularityScore',
+        'vote_average': 'averageVote',
+        'vote_count': 'totalVoteCount',
+        'release_year': 'releaseYear',
+        'genre': 'genreList'
+    }
+    
+    # Rename the columns in each dictionary
+    for item in json_result:
+        for key, value in custom_column_names.items():
+            item[value] = item.pop(key, None)
     
     # Return the prettified JSON
     return jsonify(json_result)
@@ -166,12 +185,14 @@ def search():
 
     # Retrieve query parameters
     page_number = int(request.args.get('pN', 1))
-    if page_number <= 0:
+    if page_number <= 0: # (validation)
         page_number = 1
     
     page_size = int(request.args.get('pS', 10))
-    if page_size <= 0:
+    if page_size <= 0: # (validation)
         page_size = 10
+    elif page_size > 20:
+        page_size = 20 # (validation) restrict to the max allowed page size
     
     response = vector_search(text, page_number, page_size)
 

@@ -1,0 +1,80 @@
+#search-dialog {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    width: 500px;
+    max-width: 500px;
+    height: 500px;
+    max-height: 500px;
+    background-color: transparent;
+    border-radius: 20px;
+
+    /* Center the search-dialog */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 9999;
+}
+
+
+.search-card {
+    font: 1.4em/1.618 Inter, sans-serif;
+    max-width: 500px;
+    height: 300px;
+    padding-top: 32px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 32px;
+    border: 4px solid rgba(255, 255, 255, 0.25);
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.64);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    /* Ensure flex container is in column direction */
+  }
+  
+  #search-query-textarea {
+    flex: 1;
+    /* Make the textarea fill the available space */
+    resize: none;
+    /* Disable textarea resizing */
+    border: none;
+    /* Remove textarea border */
+    background: transparent;
+    /* Set transparent background */
+    color: rgb(0, 0, 0);
+    /* Set text color to white */
+    outline: none;
+    /* Remove outline on focus */
+    overflow-y: auto;
+  }
+  #search-query-textarea::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  #search-query-textarea::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .search-footer {
+    display: inline-flex;
+    justify-content: space-around;
+    font-size: 0.65em;
+    color: rgb(21, 21, 31);
+    margin-top: auto;
+    /* Push the footer to the bottom */
+  }
+
+  #search-go-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  #search-cancel-btn {
+    background-color: transparent;
+    border: none;
+  }
