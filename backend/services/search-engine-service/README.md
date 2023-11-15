@@ -15,7 +15,7 @@ You might decide to copy the files to a new folder where you have created your v
 Now install the requirements by running the following command:
 ```pip install -r requirements.txt```
 
-Ensure that you run above commands from the project's root folder, where app folder is located.
+Ensure that you run above commands from the root folder, where app folder is located.
 
 Now to run the application, simply go to the app directory and run the following command:
 
