@@ -66,7 +66,7 @@ export const apiEndpoints = {
 
     // Search Requests
     suggestions: {
-        url: `${baseUrl}/suggest?pN={pageNumber}&pS={pageSize}`,
+        url: `${baseUrl}/search?pN={pageNumber}&pS={pageSize}`,
         method: "POST"
     }
 };
