@@ -20,11 +20,7 @@ Flick Voyage is your passport to a world of cinematic exploration. 🎥✨ Disco
 
 ## Getting Started
 
-1. Sign Up for a Flick Voyage account to unlock personalized recommendations.
-
-2. Explore our curated movie lists or search for specific titles.
-
-3. Add movies to your watchlist and start your cinematic voyage today!
+1. Explore movies or search with keywords.
 
 ## Contributing
 
