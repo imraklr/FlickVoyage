@@ -19,10 +19,10 @@ import com.flickvoyage.dataretrievalservice.services.filter.FilterRequestService
  */
 @RestController
 @RequestMapping("/")
-public class DataOperationServiceController {
+public class DataRetrievalServiceController {
     private FilterRequestService filterRequestService;
 
-    public DataOperationServiceController(FilterRequestService filterRequestService) {
+    public DataRetrievalServiceController(FilterRequestService filterRequestService) {
         this.filterRequestService = filterRequestService;
     }
 
