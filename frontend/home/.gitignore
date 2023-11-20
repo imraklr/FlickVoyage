@@ -28,9 +28,6 @@ build/
 .npm
 .cache
 
-# md theme CSS files
-css/md
-
 # bundles
 js/bundles
 

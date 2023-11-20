@@ -179,7 +179,7 @@ def prettifyJSON(res):
     return jsonify(json_result)
 
 
-@app.route('/search', methods=['POST'])
+@app.route('/suggest', methods=['POST'])
 def search():
     text = request.data.decode('utf-8')  # Decode the incoming bytes as UTF-8
 
